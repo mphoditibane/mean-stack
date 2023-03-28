@@ -1,0 +1,8 @@
+<mat-card>
+    <mat-form-field>
+        <textarea matInput rows="6" [(ngModel)]="enterValue"></textarea>
+    </mat-form-field>
+</mat-card>
+<hr>
+<button (click)="onAddPost()">Save Add</button>
+<p>{{newPost}}</p>
