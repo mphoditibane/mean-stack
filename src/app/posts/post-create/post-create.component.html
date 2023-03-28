@@ -2,7 +2,5 @@
     <mat-form-field>
         <textarea matInput rows="6" [(ngModel)]="enterValue"></textarea>
     </mat-form-field>
+    <button mat-raised-button color="primary" (click)="onAddPost()">Save Add</button>
 </mat-card>
-<hr>
-<button (click)="onAddPost()">Save Add</button>
-<p>{{newPost}}</p>
